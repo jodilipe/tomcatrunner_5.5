@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="tomcathome/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="resources/regexp-1.2.jar"/>
+	<classpathentry kind="lib" path="tomcathome/common/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="resources"/>
+	<classpathentry kind="lib" path="tomcathome"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pics"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
