@@ -12,6 +12,11 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   private static java.util.List _jspx_dependants;
 
+  static {
+    _jspx_dependants = new java.util.ArrayList(1);
+    _jspx_dependants.add("/_menu.jsp");
+  }
+
   public Object getDependants() {
     return _jspx_dependants;
   }
@@ -82,6 +87,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
  } 
       out.write("\n");
       out.write("</div>\n");
+      out.write("\n");
       out.write("\n");
       out.write("<div class=\"thumbnails\">\n");
       out.write("\t");

@@ -34,7 +34,7 @@
        unpackWARs="true" autoDeploy="true"
        xmlValidation="false" xmlNamespaceAware="false">
 
-		<Context path='/pics' docBase='/Users/jon/workspace_private/pics/pics/bin' debug='3' crossContext='true' reloadable='true'><Logger className='org.apache.catalina.logger.FileLogger' prefix='localhost_pics_log.' suffix='.txt' timestamp='true'/></Context>
+		<Context path='/pics' docBase='/Users/jon/workspace/pics/pics/bin' debug='3' crossContext='true' reloadable='true'><Logger className='org.apache.catalina.logger.FileLogger' prefix='localhost_pics_log.' suffix='.txt' timestamp='true'/></Context>
 		<!--dynamic context -->
 		<!--dynamic context -->
 		<!--dynamic context -->

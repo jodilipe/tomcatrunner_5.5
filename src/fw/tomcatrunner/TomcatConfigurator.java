@@ -59,7 +59,7 @@ public class TomcatConfigurator {
 	}
 
 	private String getWebappName(File file) {
-		return file.getParentFile().getName().equalsIgnoreCase("workspace_private") ? file.getName() : getWebappName(file.getParentFile());
+		return file.getParentFile().getName().equalsIgnoreCase("workspace") ? file.getName() : getWebappName(file.getParentFile());
 	}
 
 	public void setup(String tomcatHome) {
